@@ -8,8 +8,7 @@
 @endif
 <h1 class="display-3">Offre de Stage</h1>
 <div>
-<a style="margin: 19px;" href="{{ route('stages.create')}}" class="btn btn-primary">Nouvelle
-Actualité</a>
+<a style="margin: 19px;" href="{{ route('stages.create')}}" class="btn btn-primary">Nouveau Stage</a>
 <a style="margin: 19px;" href="./" class="btn btn-primary">Retour Site</a>
 </div>
 <div>
