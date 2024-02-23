@@ -100,6 +100,10 @@
         <!-- Portfolio-->
         
         <div id="portfolio">
+        <div class="container">
+                <h2 class="text-center mt-0">Actualité</h2>
+                <hr class="divider my-4" />
+            </div>
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                 @foreach($actualites as $actualite)
@@ -107,8 +111,8 @@
                         <a class="portfolio-box" href="../public/assets/img/portfolio/fullsize/1.jpg">
                         <img class="img-fluid" src="../public/assets/img/portfolio/thumbnails/1.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name"><h3 class="h4 mb-2">{{ $actualite->titre }}</h3></div>
+                                <div class="project-category text-white-50">{{ $actualite->titre }}</div>
+                                <div class="project-name"><h3 class="h4 mb-2">{{ $actualite->description }}</h3></div>
                             </div>
                         </a>
                     </div>
@@ -116,6 +120,32 @@
                 </div>
             </div>
         </div>
+        <section class="page-section" id="horaires">
+            <div class="container">
+                <h2 class="text-center mt-0">Offre de Stage</h2>
+                <hr class="divider my-4" />
+                
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Intitulé du poste</td>
+                            <td>Entreprise</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach($stages as $stages)
+                        <tr>
+                            <td>{{$stages->titre}}</td>
+                            <td>{{$stages->entreprise}}</td>
+                            <td>{{$stages->description}}</td>
+                    </tr>
+                    @endforeach
+                    </tbody>
+                </table> 
+
+            </div>
+        </section>
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container text-center">

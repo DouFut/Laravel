@@ -17,6 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', function () {
+    //récupérer données bd
+    $actualites = App\Actualite::all();
+    $stages = App\Stage::all();
+    return view('welcome', ['actualites' => $actualites, 'stages' => $stages]);
+    });
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -27,8 +34,4 @@ Route::resource('stages', 'StageController');
 
 
 
-Route::get('/', function () {
-    //récupérer données bd
-    $actualites = App\Actualite::all();
-    return view('welcome', ['actualites' => $actualites]);
-    });
+
