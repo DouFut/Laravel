@@ -44,7 +44,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Découvrez cette magnifique formation qu'est le BTS SIO</p>
+                        <p class="text-white-75 font-weight-light mb-5">Découvrez cette magnifique formation qu'est le BTS SIO.</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Plus d'information</a>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         <hr class="divider light my-4" />
                         <p class="text-white-50 mb-4">Le BTS SIO forme des experts informatiques polyvalents, 
                             spécialisés soit dans l'infrastructure, les systèmes, et réseaux, soit dans le développement logiciel et les application métiers. 
-                            Un cursus conçu pour répondre aux besoins variés de l'informatique</p>
+                            Un cursus conçu pour répondre aux besoins variés de l'informatique.</p>
                         <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Commençons !</a>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                         <div class="mt-5">
                             <i class="fas fa-4x fa-server text-primary mb-4"></i>
                             <h3 class="h4 mb-2">SISR</h3>
-                            <p class="text-muted mb-0">Spécialisés en gestion, maintenace et sécurisation des systèmes informatique et réseaux au sein des organisation</p>
+                            <p class="text-muted mb-0">Spécialisés en gestion, maintenace et sécurisation des systèmes informatique et réseaux au sein des organisation.</p>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">Besoin d'information supplémentaire</h2>
                         <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Appeler nous où envoyer nous un email à nos coordonnées ci dessous et on vous répondra le plus vite possible</p>
+                        <p class="text-muted mb-5">Appeler nous où envoyer nous un email à nos coordonnées ci dessous, on vous répondra le plus vite possible.</p>
                     </div>
                 </div>
                 <div class="row">
