@@ -14,8 +14,14 @@ class ActualiteController extends Controller
      */
     public function index()
     {
-        $actualites = Actualite::all();
-        return view('actualites.index', compact('actualites')); 
+        if (auth()->check()) 
+        {
+            $actualites = Actualite::all();
+            return view('actualites.index', compact('actualites'));
+        }
+        else
+            return redirect('/home') ;
+ 
     }
 
     /**
@@ -25,7 +31,13 @@ class ActualiteController extends Controller
      */
     public function create()
      {
-     return view('actualites.create');
+        if (auth()->check()) 
+        {
+            return view('actualites.create');
+        }
+        else
+            return redirect('/home') ;
+     
      }
     
 
